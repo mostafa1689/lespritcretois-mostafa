@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="description de la page">
+    <title>L'Esprit Crétois</title>
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* visible que ds cette page  */
+    </style>
+    <script src="https://kit.fontawesome.com/70c0d149b7.js" crossorigin="anonymous"></script>
+    <script type="module" src="js/main.js"></script>
+
+    <script type="module" src="js/loadProductsDetails.js" defer></script>
+    <script type="module" src="js/cart.js" defer></script>
+
+    <!--  commentaire HTML   -->
+</head>
+<body id="article-page">
+<div id="loader">
+    <div class="loader"></div>
+</div>
+<div class="container" id="bt-categories" >
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+</div>
+<div id="menu-categories"></div>
+<nav id="reseaux-sociaux">
+    <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+    <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+    <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+</nav>
+<a  id="back-to-top" class="arrow-up"><i class="fas fa-arrow-up fa-2x "></i></a>
+
+
+
+<header>
+   <div class="gabarit">
+        <section class="clearfix">
+            <a href="index.html"><img src="img/logo-lesprit-cretois-150x150.png" alt="Boutique de produits crétois et grecs"></a>
+            <h1>L'Esprit Crétois</h1>
+        </section>
+   </div>
+
+        <!--  primary nav-->
+    <div class="gabarit">
+        <i class="fas fa-bars fa-3x" id="mobile-nav"></i>
+        <nav id="primary-nav">
+            <ul>
+                <li><a href="index.html">Accueil</a> </li>
+                <li><a href="blog.html">Blog</a> </li>
+                <li><a href="produits.html">Produits</a> </li>
+                <li><a href="contact.html">Contact</a> </li>
+                <li><a href="panier.html">Panier <span class="nbre-produits"></span></a> </li>
+            </ul>
+        </nav>
+     </div>
+
+</header>
+
+<div class="gabarit" id="contenu">
+    <main>
+        <section id="produit-simple">
+              <!-- A supprimmer -->
+            <!-- <article>
+                <h3>Dolmades (Feuille de vigne farcie au riz) 200g</h3>
+                <div>
+                    <figure><img src="img/products/alimentaire/aperitifs/dolmades-feuille-de-vignes-traditionelles.jpg"></figure>
+                    <div>
+                        <p></p>
+                        <p>Tendres feuilles de vigne croquantes farcies de riz aromatisées aux herbes à l’huile d’olive extra
+                            vierge.<br>Fabriqué à la main à partir d’une recette familiale et d’ingrédients frais. Ajout essentiel à
+                            tout plateau d’apéritif.<br> A déguster seul en collation ou en accompagnement d’une boisson. Un produit
+                            typique de la Grèce.</p>
+                        <p></p>
+                        <footer>
+                            <form id="panier"><input type="hidden" id="id" value="1"><input type="number" min="1" step="1" value="1"
+                                    id="price"><span id="calcul-price">7.70€</span><button type="submit" class="bt-panier"
+                                    id="bt-panier" href="panier.html?id=1">Ajouter au panier</button></form>
+                        </footer>
+                    </div>
+                </div>
+            </article> -->
+              <!-- A supprimmer -->
+        </section>
+    </main>
+
+</div>
+<!-- fin contenu -->
+
+<footer>
+    <div class="gabarit clearfix">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a> </li>
+                <li><a href="blog.html">Blog</a> </li>
+                <li><a href="contact.html">Contact</a> </li>
+            </ul>
+        </nav>
+
+        <nav>
+            <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+        </nav>
+    </div>
+    <p>&copy; 2021 tous droits de reproductions réservés</p>
+</footer>
+
+</body>
+</html>
+
