@@ -1,4 +1,4 @@
-const myUrl = "http://127.0.0.1:5509/json/products.json";
+const myUrl = "https://mostafa1689.github.io/lespritcretois-mostafa/json/products.json";
 const titleForm = document.querySelector("#commande h3");
 const myForm = document.querySelector("#form-commande");
 
