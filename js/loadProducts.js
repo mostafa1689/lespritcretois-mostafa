@@ -1,4 +1,4 @@
-const myUrl = "http://127.0.0.1:5509/json/products.json";
+const myUrl = "https://mostafa1689.github.io/lespritcretois-mostafa/json/products.json";
 
 const loadData = async (myUrl) => {
   return fetch(myUrl)
